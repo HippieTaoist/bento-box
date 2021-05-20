@@ -1,0 +1,44 @@
+#bento-box {
+    width: 413px;
+    height: 464px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "fish fish vase-s " "map map vase-s " "vase-l bam bam " "vase-l  bam bam " "vase-l quad  quad ";
+}
+
+#bam {
+    grid-area: bam;
+    height: 202px;
+    width: 296px;
+}
+
+#fish {
+    grid-area: fish;
+    height: 80px;
+    width: 296px;
+}
+
+#map {
+    grid-area: map;
+    height: 102px;
+    width: 296px;
+}
+
+#vase-s {
+    grid-area: vase-s;
+    height: 181px;
+    width: 115px;
+}
+
+#vase-l {
+    grid-area: vase-l;
+    height: 281px;
+    width: 113px;
+}
+
+#quad {
+    grid-area: quad;
+    height: 81px;
+    width: 296px;
+}
